@@ -6,13 +6,13 @@ export const moveLeft = keyframes`
 
 0%{
   opacity: 0;
-  transfrom: translateX(-100px);
-  margin-left: -100px;
+  transfrom: translateX(-10rem);
+  margin-left: -10rem;
 }
 
 80%{
-  transfrom: translateX(20px);
-  margin-left: 20px;
+  transfrom: translateX(1rem);
+  margin-left: 1rem;
 }
 
 100%{
@@ -25,13 +25,13 @@ export const moveRight = keyframes`
 
 0%{
   opacity: 0;
-  transfrom: translateX(200px);
-  margin-right: -100px;
+  transfrom: translateX(20rem);
+  margin-right: -10rem;
 }
 
 80%{
-  transfrom: translateX(20px);
-  margin-right: 20px;
+  transfrom: translateX(2rem);
+  margin-right: 2rem;
 }
 
 100%{
@@ -43,8 +43,8 @@ export const bottomUpp = keyframes`
 
 0%{
   opacity: 0;
-  transfrom: translateY(30px);
-  margin-bottom: 200px;
+  transfrom: translateY(3rem);
+  margin-bottom: 20rem;
 }
 
 

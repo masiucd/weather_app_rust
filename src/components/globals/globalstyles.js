@@ -11,19 +11,24 @@ export const colours = {
 };
 
 export const GlobalStyle = createGlobalStyle`
-*{
+*,
+*::after,
+*::before {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  box-sizing: inherit;
+}
+html{
+  font-size: 62.5%
 }
 body {
   @import url('https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i,900,900i');
   font-family: 'Lato', sans-serif;
   font-weight: 400;
-  font-size: 16px;
   color: #777;
   line-height: 1.7;
   padding: 30px;
+  box-sizing: border-box;
 }
 
 `;
