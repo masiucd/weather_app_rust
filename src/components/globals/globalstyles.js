@@ -8,6 +8,13 @@ export const colours = {
   greenrgba2: ' rgba(40, 180, 131, 0.8)',
   greenrgba3: ' rgba(116, 313, 111, 0.8)',
   transparentColour1: 'rgba(0,0,0,.2)',
+  colourGrey1: '#f7f7f7'
+};
+
+export const grid = {
+  width: `114rem`,
+  gutterV: `8rem`,
+  gutterH: `2rem`
 };
 
 export const GlobalStyle = createGlobalStyle`
