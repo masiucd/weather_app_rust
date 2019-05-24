@@ -1,9 +1,10 @@
 import { grid } from './globalstyles';
 import styled, { keyframes } from 'styled-components';
+import { colours } from './globalstyles';
 
 export const Row = styled.div`
   max-width: 114rem;
-  background-color: $white;
+  background-color: #fff;
   margin: 0 auto;
   /* select evrything except the last child */
   &:not(:last-child) {

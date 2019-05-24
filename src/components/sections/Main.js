@@ -2,7 +2,11 @@ import React from 'react';
 import { MainWrapper } from '../styles/main';
 import { Row, ColOneOfTwo } from '../globals/grid';
 import { Button } from '../../styles';
+import { TwoColWrappers } from '../styles/composision';
 import { Link } from 'react-router-dom';
+import nat1 from '../../img/nat-1-large.jpg';
+import nat2 from '../../img/nat-2-large.jpg';
+import nat3 from '../../img/nat-3-large.jpg';
 
 export default function Main() {
   return (
@@ -14,7 +18,8 @@ export default function Main() {
           </h2>
         </div>
 
-        <Row>
+        <TwoColWrappers>
+          {/* <Row> */}
           <ColOneOfTwo>
             <h3 className="heading-teritary u-margin-bottom-small">
               You going to love the nature
@@ -39,8 +44,27 @@ export default function Main() {
             </Link>
           </ColOneOfTwo>
 
-          <ColOneOfTwo>for the images</ColOneOfTwo>
-        </Row>
+          <ColOneOfTwo>
+            <div className="composition">
+              <img
+                src={nat1}
+                alt="nature"
+                className="composition__photo composition__photo--p1 __photo"
+              />
+              <img
+                src={nat2}
+                alt="nature2"
+                className="composition__photo composition__photo--p1 __photo"
+              />
+              <img
+                src={nat3}
+                alt="nature3"
+                className="composition__photo composition__photo--p1 __photo"
+              />
+            </div>
+          </ColOneOfTwo>
+          {/* </Row> */}
+        </TwoColWrappers>
       </section>
     </MainWrapper>
   );
