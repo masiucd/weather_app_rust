@@ -22,7 +22,7 @@ export const TwoColWrappers = styled.div`
     &:hover {
       transition: all 0.5s linear;
       transform: scale(1.1) translateY(-5px);
-      z-index: 1;
+      z-index: 2;
       box-shadow: 1rem 2rem 4rem ${colours.transparentColour1};
       border: 2px solid ${colours.dark_green};
       outline-offset: 2rem;
@@ -35,6 +35,7 @@ export const TwoColWrappers = styled.div`
       position: absolute;
       top: 1px;
       left: 200px;
+
       ${mediaMax.phone`top: 30px;
       left: 70px;  `}
     }
@@ -42,23 +43,28 @@ export const TwoColWrappers = styled.div`
       position: absolute;
       top: 190px;
       left: 160px;
+
+      z-index: 1;
       ${mediaMax.phone`top: 57px;
       left: 50px;  `}
       ${mediaMax.tablet`
         ; top: 40px; right: 90px; `}
     }
     }
-  
+
     &:nth-child(3) {
       position: absolute;
       top: 60px;
+      z-index: 2;
+      border: 2px solid red;
       left: 20px;
       ${mediaMax.phone`top: 50px;
       left: 10px;  `}
       ${mediaMax.tablet`
       top: 10px; right: 90px; `}
+
     }
-    
-  
-  
+
+
+
 `;

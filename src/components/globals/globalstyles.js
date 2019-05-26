@@ -4,18 +4,20 @@ export const colours = {
   light_green: '#7ed56f',
   medium_green: '#55c57a',
   dark_green: '#28b485',
+  black: '#000',
+  blackT: 'rgba(3,3,3,0.6)',
   greenrgba1: 'rgba(126, 213, 111, 0.8)',
   greenrgba2: ' rgba(40, 180, 131, 0.8)',
   greenrgba3: ' rgba(116, 313, 111, 0.8)',
   transparentColour1: 'rgba(0,0,0,.2)',
   colourGrey1: '#f7f7f7',
-  white: '#fff'
+  white: '#fff',
 };
 
 export const grid = {
   width: `114rem`,
   gutterV: `8rem`,
-  gutterH: `2rem`
+  gutterH: `2rem`,
 };
 
 export const GlobalStyle = createGlobalStyle`
