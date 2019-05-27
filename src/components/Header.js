@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import logoWhite from '../img/logo-white.png';
+import logoWhite from '../sass/img/logo-white.png';
 
 export default function Header() {
   return (

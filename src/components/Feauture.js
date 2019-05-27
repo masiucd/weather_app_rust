@@ -1,4 +1,8 @@
 import React from 'react';
+import { Globe } from 'styled-icons/fa-solid/Globe';
+import { Compass2 } from 'styled-icons/icomoon/Compass2';
+import { Suitcase } from 'styled-icons/fa-solid/Suitcase';
+import { Heart } from 'styled-icons/boxicons-regular/Heart';
 
 export default function Feauture() {
   return (
@@ -7,7 +11,10 @@ export default function Feauture() {
         <div className="row">
           <div className="col-1-of-4">
             <div className="feature-box">
-              <i className="feature-box__icon icon-basic-world" />
+              <span className="feature-box__icon icon-basic-world">
+                {' '}
+                <Globe size="34" style={{ color: '#444' }} />{' '}
+              </span>
               <h3 className="heading-tertiary u-margin-bottom-small">
                 Explore the world
               </h3>
@@ -20,7 +27,10 @@ export default function Feauture() {
 
           <div className="col-1-of-4">
             <div className="feature-box">
-              <i className="feature-box__icon icon-basic-compass" />
+              <span className="feature-box__icon icon-basic-world">
+                {' '}
+                <Compass2 size="34" style={{ color: '#444' }} />{' '}
+              </span>
               <h3 className="heading-tertiary u-margin-bottom-small">
                 Meet nature
               </h3>
@@ -33,7 +43,10 @@ export default function Feauture() {
 
           <div className="col-1-of-4">
             <div className="feature-box">
-              <i className="feature-box__icon icon-basic-map" />
+              <span className="feature-box__icon icon-basic-world">
+                {' '}
+                <Suitcase size="34" style={{ color: '#444' }} />{' '}
+              </span>
               <h3 className="heading-tertiary u-margin-bottom-small">
                 Find your way
               </h3>
@@ -46,7 +59,10 @@ export default function Feauture() {
 
           <div className="col-1-of-4">
             <div className="feature-box">
-              <i className="feature-box__icon icon-basic-heart" />
+              <span className="feature-box__icon icon-basic-world">
+                {' '}
+                <Heart size="34" style={{ color: '#444' }} />{' '}
+              </span>
               <h3 className="heading-tertiary u-margin-bottom-small">
                 Live a healthier life
               </h3>
