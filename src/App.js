@@ -1,18 +1,19 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import { GlobalStyle } from './components/globals/globalstyles';
-import Header from './components/globals/Header';
-import Main from './components/sections/Main';
-import Feautures from './components/sections/Feautures';
+import './sass/main.scss';
+import Header from './components/Header';
+import About from './components/About';
+import Feauture from './components/Feauture';
+import Tours from './components/Tours';
 
 export default function App() {
   return (
     <>
       <BrowserRouter>
-        <GlobalStyle />
         <Header />
-        <Main />
-        <Feautures />
+        <About />
+        <Feauture />
+        <Tours />
       </BrowserRouter>
     </>
   );
