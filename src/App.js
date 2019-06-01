@@ -6,6 +6,7 @@ import About from './components/About';
 import Feauture from './components/Feauture';
 import Tours from './components/Tours';
 import Stories from './components/Stories';
+import Booking from './components/Booking';
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
         <Feauture />
         <Tours />
         <Stories />
+        <Booking />
       </BrowserRouter>
     </>
   );
