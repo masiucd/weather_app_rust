@@ -1,3 +1,4 @@
+
 .story {
     width: 75%;
     margin: 0 auto;
@@ -53,6 +54,7 @@
 
     &:hover &__img {
         transform: translateX(-4rem) scale(1);
-        filter: blur(3px) brightness(80%);
+        filter: blur(6px) brightness(80%);
     }
 }
+
