@@ -9,7 +9,7 @@ function Navigation() {
         id="navi-toggle"
       />
       <label htmlFor="navi-toggle" className="navigation__button">
-        Menu
+        <span className="navigation__icon">s</span>
       </label>
       <div className="navigation__background">&nbsp;</div>
       <nav className="navigation__nav">
@@ -17,29 +17,34 @@ function Navigation() {
           <li className="navigation__item">
             <a href="#" className="navigation__link">
               {' '}
+              <span>01</span>
               About Natours
             </a>
           </li>
           <li className="navigation__item">
             <a href="#" className="navigation__link">
               {' '}
-              Yoyr Benefits
+              <span>02</span>
+              Your Benefits
             </a>
           </li>
           <li className="navigation__item">
             <a href="#" className="navigation__link">
               {' '}
+              <span>03</span>
               Populour Tours
             </a>
           </li>
           <li className="navigation__item">
             <a href="#" className="navigation__link">
+              <span>04</span>
               Stories{' '}
             </a>
           </li>
           <li className="navigation__item">
             <a href="#" className="navigation__link">
               {' '}
+              <span>05</span>
               Book now
             </a>
           </li>
